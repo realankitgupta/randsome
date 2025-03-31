@@ -23,7 +23,8 @@ let printname = function(){
 let intervalid = ""
 
 start.addEventListener("click", function(){
-    intervalid =  setInterval(printname, 1000);
+    if (!intervalid){
+    intervalid =  setInterval(printname, 1000);}
 })
 
 stop.addEventListener("click", function(){
