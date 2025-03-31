@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(16, 21, 31);
+    color: aliceblue;
+}
+#nav{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+
+}
+.buttons{
+   position: relative;
+   left: 420px;
+   height: 40px;
+   width: 200px;
+}
